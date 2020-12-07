@@ -138,7 +138,7 @@ module.exports = {
       })
     })
 
-    await server.register(inert)
+    //await server.register(inert)
 
     assets.forEach((asset) => {
       server.route({
